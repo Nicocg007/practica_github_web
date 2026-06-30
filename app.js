@@ -8,7 +8,7 @@ let empleados = [
 
 let tabla = document.querySelector("#tabla-empleados");
 let btn_todos = document.querySelector("#btn-todos")
-
+const btn_activos  = document.querySelector("#btn-activos")
 function PintarTabla(lista) {
     tabla.innerHTML = "";
 
