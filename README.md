@@ -1,5 +1,5 @@
+# Todos son unos geys
 
-# Todos son unos geys 
-## que Maru gaste unas maids 
-## maru tiene sida 
-# Como que css en el idex 
+## que Maru gaste unas maids
+
+## maru tiene sida
