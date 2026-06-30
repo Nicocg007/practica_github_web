@@ -7,6 +7,7 @@ let empleados = [
 ];
 
 let tabla = document.querySelector("#tabla-empleados");
+let btn_todos = document.querySelector("#btn-todos")
 
 function PintarTabla(lista) {
     tabla.innerHTML = "";
@@ -27,10 +28,11 @@ function PintarTabla(lista) {
         tabla.append(tr);
     })
 }
-let btn_todos = document.querySelector("#btn-todos")
-function btnTodo(){
-tabla.innerHTML="";
-PintarTabla(empleados);
 
-}
-PintarTabla(empleados);
+document.addEventListener("DOMContentLoaded", PintarTabla(empleados));
+
+tabla.innerHTML="";
+
+btn_todos.addEventListener("click", () => {
+    PintarTabla(empleados);
+})
