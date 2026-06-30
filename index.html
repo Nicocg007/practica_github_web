@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 5: Panel de Empleados</title>
+    <style>
+        .controles { margin-bottom: 15px; display: flex; gap: 10px; }
+        .inactivo { color: gray; text-decoration: line-through; }
+    </style>
+</head>
+<body>
+
+    <h1>Panel de Control de Empleados</h1>
+
+    <div class="controles">
+        <button id="btn-todos">Mostrar Todos</button>
+        <button id="btn-activos">Solo Activos</button>
+        <button id="btn-aumentar">Dar Aumento (+10%)</button>
+        <button id="btn-nomina">Calcular Nómina Total</button>
+    </div>
+
+    <p>Gasto Total en Nómina: $<span id="total-nomina">0</span></p>
+
+    <table border="1" style="width: 100%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Departamento</th>
+                <th>Salario</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-empleados">
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
