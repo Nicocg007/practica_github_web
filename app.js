@@ -27,5 +27,10 @@ function PintarTabla(lista) {
         tabla.append(tr);
     })
 }
+let btn_todos = document.querySelector("#btn-todos")
+function btnTodo(){
+tabla.innerHTML="";
+PintarTabla(empleados);
 
+}
 PintarTabla(empleados);
