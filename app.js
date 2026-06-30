@@ -31,8 +31,7 @@ function PintarTabla(lista) {
 
 document.addEventListener("DOMContentLoaded", PintarTabla(empleados));
 
-tabla.innerHTML="";
-
 btn_todos.addEventListener("click", () => {
+    tabla.innerHTML="";
     PintarTabla(empleados);
 })
